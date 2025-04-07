@@ -14,3 +14,6 @@ public:
     std::vector<size_t> vertices() const;
     const std::unordered_set<size_t> & neighbours(size_t v) const;
 };
+
+
+graph graph_union(const std::vector<graph> & gs);
